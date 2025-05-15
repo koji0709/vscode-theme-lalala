@@ -1,15 +1,15 @@
 {
-	"name": "product-icon-theme-sample",
+	"name": "vscode-theme-lalala",
 	"version": "0.1.0",
-	"publisher": "vscode-samples",
+	"publisher": "koji",
 	"engines": {
 		"vscode": "*"
 	},
 	"contributes": {
 		"productIconThemes": [
 			{
-				"id": "vscode-v1-icons",
-				"label": "VSCode 1.0 Icons",
+				"id": "vscode-theme-lalala",
+				"label": "vscode-theme-lalala",
 				"path": "./theme/v1-product-icon-theme.json"
 			}
 		]

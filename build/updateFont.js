@@ -2,18 +2,17 @@ const webfont = require('webfont');
 const fs = require('fs');
 const path = require('path');
 
-const svgs = [
-  "explorer-view.svg",
-  "search-view.svg",
-  "debug-view.svg",
-  "git-view.svg",
-  "extensions-view.svg",
-  "smiley.svg",
-  "folding-expanded.svg",
-  "folding-collapsed.svg",
-  "expando-expanded.svg",
-  "expando-collapsed.svg",
-].map(name => path.join(__dirname, '..', 'icons', name));
+// const svgs = [
+//   "explorer.svg",
+//   "extensions.svg",
+//   "git.svg",
+// ].map(name => path.join(__dirname, '..', 'pet', name));
+
+// 获取 pet 目录下所有的 SVG 文件
+const petDir = path.join(__dirname, '..', 'icons');
+const svgs = fs.readdirSync(petDir)
+  .filter(file => path.extname(file).toLowerCase() === '.svg')
+  .map(file => path.join(petDir, file));
 
 async function generateFont() {
 

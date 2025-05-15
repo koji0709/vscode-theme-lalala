@@ -14,32 +14,25 @@
 	],
 	"iconDefinitions": {
 		"explorer-view-icon": {
-			"fontCharacter": "\\e000"
+			"fontCharacter": "\\e002",
+			"fontSize": 20,
+			"fontColor": "pink"
 		},
 		"search-view-icon": {
-			"fontCharacter": "\\e001"
+			"fontCharacter": "\\e009",
+			"fontSize": 20,
 		},
 		"run-view-icon": {
-			"fontCharacter": "\\e002"
+			"fontCharacter": "\\e001",
+			"fontSize": 20,
 		},
 		"extensions-view-icon": {
-			"fontCharacter": "\\e004"
+			"fontCharacter": "\\e004",
+			"fontSize": 20,
 		},
 		"source-control-view-icon": {
-			"fontCharacter": "\\e003"
+			"fontCharacter": "\\e005",
+			"fontSize": 20,
 		},
-		"tree-item-expanded": {
-			"fontCharacter": "\\e008"
-		},
-		"folding-expanded": {
-			"fontCharacter": "\\e006"
-		},
-		"folding-collapsed": {
-			"fontCharacter": "\\e007"
-		},
-		"feedback": {
-			"fontCharacter": "\\e005"
-		},
-
 	}
 }
