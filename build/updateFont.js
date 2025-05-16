@@ -21,6 +21,7 @@ async function generateFont() {
       files: svgs,
       formats: ['woff'],
       startUnicode: 0xE000,
+      fontHeight: 1000,
       verbose: true,
       normalize: true,
       sort: false
@@ -34,5 +35,3 @@ async function generateFont() {
 }
 
 generateFont();
-
-

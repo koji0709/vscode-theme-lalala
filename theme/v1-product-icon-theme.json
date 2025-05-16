@@ -15,24 +15,18 @@
 	"iconDefinitions": {
 		"explorer-view-icon": {
 			"fontCharacter": "\\e002",
-			"fontSize": 20,
-			"fontColor": "pink"
 		},
 		"search-view-icon": {
-			"fontCharacter": "\\e009",
-			"fontSize": 20,
+			"fontCharacter": "\\e001",
 		},
 		"run-view-icon": {
-			"fontCharacter": "\\e001",
-			"fontSize": 20,
-		},
-		"extensions-view-icon": {
-			"fontCharacter": "\\e004",
-			"fontSize": 20,
+			"fontCharacter": "\\e003",
 		},
 		"source-control-view-icon": {
-			"fontCharacter": "\\e005",
-			"fontSize": 20,
+			"fontCharacter": "\\e004",
+		},
+		"extensions-view-icon": {
+			"fontCharacter": "\\e000",
 		},
 	}
 }
